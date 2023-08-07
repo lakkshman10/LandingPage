@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Lato,sans-serif;
 }
 body{
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("background.jpg");
@@ -12,6 +13,13 @@ body{
     overflow: hidden;
   }
 
+.logo{
+    width:100px ;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
 .topnav a {
     float: right;
     color: #f2f2f2;
@@ -19,15 +27,16 @@ body{
     padding: 20px 20px;
     text-decoration: none;
     font-size: 20px;
-    margin: 10px 50px;
+    margin: 50px 50px;
   }
   
 .topnav a:hover {
     cursor: pointer;
+    color: burlywood;
   }
 #content{
     color: #fff;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 100px;
 }
 .title{
@@ -48,4 +57,40 @@ body{
     letter-spacing: 1px;
     word-spacing: 3px;
     line-height: 1.6;
+}
+.btn:link,
+.btn:visited{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 200px;
+    transition: background-colour 0.2s,border 0.2s,color 0.2s;
+    font-size: 20px;
+}
+.btn-1:link,
+.btn-1:visited{
+    background-color: burlywood;
+    color: white;
+    border: 1px solid burlywood;
+    margin-right: 25px;
+}
+.btn-2:link,
+.btn-2:visited{
+    color: burlywood;
+    border: 1px solid burlywood;
+}
+.btn:hover,
+.btn:active{
+    background-color: #B87333;
+}
+.btn-2:hover,
+.btn-2:hover{
+    border: 1px solid B87333;
+    color: white;
+}
+.btn-1:hover,
+.btn-1:hover{
+    border: 1px solid B87333;
 }
